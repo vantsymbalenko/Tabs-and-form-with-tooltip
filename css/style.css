@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+/*tabs*/
 .container {
 	width: 60vw;
 	margin: 0px auto;
@@ -35,4 +37,34 @@
 	background-color: #007fff;
 	border: 1px solid #003eff;
 	color: white;
+}
+
+/*form */
+.hint {
+	margin: 20px auto;
+	width: 40vw;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hint div {
+	margin-bottom: 2vh;
+	height: 3vh;
+}
+.hint div label {
+	display: inline-block;	
+	width: 8vw;
+	font-size: 16px;
+	text-align: left;
+}
+.hint div input {
+	height: 100%;
+}
+.hint div span {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -3px;
+	display: none;
+	padding: 5px;
+	width: 150px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
